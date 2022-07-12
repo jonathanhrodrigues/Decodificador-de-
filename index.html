@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon">
+
+    <script defer src="assets/script.js"></script>
+    <script defer src="https://kit.fontawesome.com/9555ff22ed.js" crossorigin="anonymous"></script>
+
+    <title>Codificador de Texto</title>
+</head>
+
+<body>
+    <main>
+        <div id="logo">
+            <i class="fa-solid fa-align-left"></i>
+        </div>
+        <div id="encryptor">
+            <div>
+                <h1 class="title">Codificador de Texto</h1>
+            </div>
+            <div class="text-input-container">
+                <span id="text-input" role="textbox" contenteditable></span>
+            </div>
+            <div class="buttons-container">
+                <p class="notice">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    Apenas letras minúsculas sem acentuação e sem caracteres especiais
+                </p>
+                <div>
+                    <button id="encrypt-btn" class="dark-btn">Criptografar</button>
+                    <button id="decrypt-btn" class="light-btn">Descriptografar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-output-container">
+            <img id="no-msg-img" src="assets/no-msg.png" alt="Nenhuma mensagem encontrada">
+            <span id="text-output" role="textbox" contenteditable="false"></span>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/jonathanhrodrigues/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            LinkedIn
+        </a>
+        <p>Desenvolvido por Jonathan Rodrigues &copy; 2022</p>
+        <a href="https://github.com/jonathanhrodrigues" target="_blank">
+            <i class="fa-brands fa-github-square"></i>
+            Github
+        </a>
+    </footer>
+</body>
+
+</html>
